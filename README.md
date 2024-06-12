@@ -169,5 +169,9 @@ let infomation: [Info] = [
 ]
 ```
 
+### Reference
+* [SwiftUI 小技巧：利用 border 修飾符　輕鬆為按鈕或文本繪製邊框](https://www.appcoda.com.tw/swiftui-border/)
 
+* [SwiftUI Image – Tutorial and Examples](https://codewithchris.com/swiftui-image/)
 
+* [How to change Background Color of Button in SwiftUI](https://sarunw.com/posts/swiftui-button-background-color/)
