@@ -1,13 +1,12 @@
 #  Design your App
 
 Main task:
-Today this practice was from Apple's learning center [Design your App](https://education.apple.com/learning-center/T049524A).
+This practice is from Apple's learning center [Design your App](https://education.apple.com/learning-center/T049524A).
 
-And by using SwiftUI to build a view.
+And using SwiftUI to build a completely project.
 
 ### ContentView:
-
-#### Show different result by tapping each buttons.
+### Show different result by tapping each buttons.
 
 I created three different buttons(Thankful, Excited, Joyful) to switching between different text contents.
 
@@ -100,7 +99,7 @@ VStack {
     }
 ```
 
-#### Shows the gardientColor in background by using ZStack.
+### Shows the gardientColor in background by using ZStack.
 
 ```
         // Add Angular Gradient effect
@@ -121,7 +120,8 @@ VStack {
             .edgesIgnoringSafeArea(.all)
 ```
 
-#### Show content after the tapping different buttons 
+
+### Show content after the tapping different buttons 
 
 ```
                 // Add ZStack in this view.
@@ -140,7 +140,7 @@ VStack {
                 }
 ```
 
-### Data
+### Data.swift:
 
 Create the information data array for switch different content.
 
