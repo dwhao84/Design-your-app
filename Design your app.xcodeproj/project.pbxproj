@@ -14,6 +14,7 @@
 		D37E7CE82C1905920079736E /* Design_your_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37E7CE72C1905920079736E /* Design_your_appTests.swift */; };
 		D37E7CF22C1905920079736E /* Design_your_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37E7CF12C1905920079736E /* Design_your_appUITests.swift */; };
 		D37E7CF42C1905920079736E /* Design_your_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37E7CF32C1905920079736E /* Design_your_appUITestsLaunchTests.swift */; };
+		D37E7D012C1923AD0079736E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37E7D002C1923AD0079736E /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D37E7CED2C1905920079736E /* Design your appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Design your appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37E7CF12C1905920079736E /* Design_your_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_your_appUITests.swift; sourceTree = "<group>"; };
 		D37E7CF32C1905920079736E /* Design_your_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_your_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D37E7D002C1923AD0079736E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				D37E7CD62C1905910079736E /* Design_your_appApp.swift */,
 				D37E7CD82C1905910079736E /* ContentView.swift */,
+				D37E7D002C1923AD0079736E /* Data.swift */,
 				D37E7CDA2C1905920079736E /* Assets.xcassets */,
 				D37E7CDC2C1905920079736E /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D37E7CD92C1905910079736E /* ContentView.swift in Sources */,
+				D37E7D012C1923AD0079736E /* Data.swift in Sources */,
 				D37E7CD72C1905910079736E /* Design_your_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
