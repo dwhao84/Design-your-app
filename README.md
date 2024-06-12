@@ -6,6 +6,10 @@ This practice is from Apple's learning center [Design your App](https://educatio
 And using SwiftUI to build a completely project.
 
 ### ContentView:
+<p align="center">
+<img src="https://github.com/dwhao84/About-Me/blob/38ae562053d940deff51664f75299b2af673a4c4/About%20Me/Assets.xcassets/README/ContentView.dataset/ContentView.gif" width="428" height="810"/>
+</p> 
+
 ### Show different result by tapping each buttons.
 
 I created three different buttons(Thankful, Excited, Joyful) to switching between different text contents.
