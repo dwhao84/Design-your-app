@@ -7,7 +7,7 @@ And using SwiftUI to build a completely project.
 
 ### ContentView:
 <p align="center">
-<img src="https://github.com/dwhao84/Design-your-app/blob/8bae87c2cb734044b10cf69c385994783117e799/Design%20your%20app/Assets.xcassets/Design%20My%20App_Animation.dataset/Design%20My%20App_Animation.gif" width="810" height="405"/>
+<img src="https://github.com/dwhao84/Design-your-app/blob/8bae87c2cb734044b10cf69c385994783117e799/Design%20your%20app/Assets.xcassets/Design%20My%20App_Animation.dataset/Design%20My%20App_Animation.gif" width="810" height="600"/>
 </p> 
 
 ### Show different result by tapping each buttons.
@@ -106,7 +106,7 @@ VStack {
 ### Shows the gardientColor in background by using ZStack.
 
 <p align="center">
-<img src="https://github.com/dwhao84/Design-your-app/blob/8bae87c2cb734044b10cf69c385994783117e799/Design%20your%20app/Assets.xcassets/Design%20My%20App_Screen%20shot.imageset/Design%20My%20App_Screen%20shot.png" width="810" height="405"/>
+<img src="https://github.com/dwhao84/Design-your-app/blob/8bae87c2cb734044b10cf69c385994783117e799/Design%20your%20app/Assets.xcassets/Design%20My%20App_Screen%20shot.imageset/Design%20My%20App_Screen%20shot.png" width="810" height="600"/>
 </p> 
 
 ```
