@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var textContent: String = "Switch Content after tap the different button"
+    
     var body: some View {
         
         // Add Angular Gradient effect
@@ -33,13 +36,21 @@ struct ContentView: View {
                     // Joyful Button
                     Button(action: {
                         print("Showing Thankful Content")
+                        
+                        textContent = infomation[0].content
+                        
                     }) {
                         Text("Thankful")
                             .font(.largeTitle)
                             .fontWeight(.semibold)
                             .foregroundColor(.white)
                             .frame(width: 300, height: 180)
-                            .background(Color.white.opacity(0.4))
+                            .background(
+                                LinearGradient(
+                                    gradient: .init(colors: [Color.white, Color.blue.opacity(0.7)]),
+                                    startPoint: .init(x: -0.33, y: -0.33),
+                                    endPoint: .init(x: 0.66, y: 0.66)
+                                ))
                             .cornerRadius(20)
                             .overlay(
                                 RoundedRectangle(cornerRadius: 20)
@@ -51,6 +62,9 @@ struct ContentView: View {
                     // Joyful Button
                     Button (action: {
                         print("Showing Thankful Content")
+                        
+                        textContent = infomation[1].content
+                        
                     }) {
                         Text("Joyful")
                             .font(.largeTitle)
@@ -58,7 +72,12 @@ struct ContentView: View {
                             .foregroundStyle(.white)
                             .backgroundStyle(.gray)
                             .frame(width: 300, height: 180)
-                            .background(Color.white.opacity(0.4))
+                            .background(
+                                LinearGradient(
+                                    gradient: .init(colors: [Color.white, Color.blue.opacity(0.7)]),
+                                    startPoint: .init(x: -0.33, y: -0.33),
+                                    endPoint: .init(x: 0.66, y: 0.66)
+                                ))
                             .cornerRadius(20)
                             .overlay(
                                 RoundedRectangle(cornerRadius: 20)
@@ -70,6 +89,10 @@ struct ContentView: View {
                     // Excited Button
                     Button(action: {
                         print("Showing Excited Content")
+                        
+                        textContent = infomation[2].content
+                    
+                        
                     }) {
                         Text("Excited")
                             .font(.largeTitle)
@@ -77,7 +100,12 @@ struct ContentView: View {
                             .foregroundStyle(.white)
                             .controlSize(.large)
                             .frame(width: 300, height: 180)
-                            .background(Color.white.opacity(0.4))
+                            .background(
+                                LinearGradient(
+                                    gradient: .init(colors: [Color.white, Color.blue.opacity(0.7)]),
+                                    startPoint: .init(x: -0.33, y: -0.33),
+                                    endPoint: .init(x: 0.66, y: 0.66)
+                                ))
                             .cornerRadius(20)
                             .overlay(
                                 RoundedRectangle(cornerRadius: 20)
@@ -89,15 +117,18 @@ struct ContentView: View {
                 
                 // Add ZStack in this view.
                 ZStack {
-                    Color.white.opacity(0.7)
-                        .frame(width: 1070, height: 300)
-                        .cornerRadius(20)
-                    
-                    Text(infomation.first?.content ?? "")
-                        .font(.largeTitle)
+                    Text(textContent)
+                        .font(.largeTitle).bold()
                         .fontWeight(.semibold)
+                        .frame(width: 1070, height: 300)
+                        .background(
+                            LinearGradient(
+                                gradient: .init(colors: [Color.white.opacity(0.8), Color.blue.opacity(0.7)]),
+                            startPoint: .init(x: -0.33, y: -0.33),
+                            endPoint: .init(x: 0.66, y: 0.66)
+                        ))
+                        .cornerRadius(20)
                 }
-                .frame(width: 600, height: 300)
                 .padding()
             }
         }
